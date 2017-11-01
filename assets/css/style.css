@@ -237,3 +237,137 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 75%;
+  }
+  .main-section {
+    width: 60%;
+    padding: 3%;
+  }
+  .sidebar {
+    width: 37%;
+    padding: 3%;
+    margin-left: 3%;
+
+  }
+  .work {
+    width: 100%;
+  }
+  .auth-image {
+    width: 100%;
+  }
+  .social {
+    width: 30%;
+    height: auto;
+    margin: 0 1%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  #masthead {
+
+  }
+  body {
+    font-size: 14px;
+  }
+  nav {
+    margin: 20px 10px 0 ;
+  }
+  #logo {
+    font-size: 24px;
+    width: 233px;
+    height: 70px;
+
+  }
+  #main-container {
+    padding-top: 100px;
+  }
+  .main-section {
+    max-width: none;
+    float: none;
+    margin: 0 auto 30px;
+    width: 95%;
+    overflow: auto;
+  }
+  .sidebar {
+    max-width: none;
+    float: none;
+    margin: 0 auto 20px;
+    width: 95%;
+  }
+    .social {
+    width: 30%;
+    height: auto;
+    margin: 0 1%;
+  }
+  .auth-image {
+  width: 50%;
+  height: auto;
+}
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 100%;
+  }
+#masthead {
+  position: static;
+  margin: 0 0 20px;
+  width: 100%;
+  top: 0;
+}
+#logo {
+  width: 100%;
+  text-align:center;
+  position: static;
+  top: 0;
+}
+nav {
+  float: none;
+  text-align:center;
+}
+nav a {
+  padding: 0 8%;
+}
+.auth-image {
+  width: 100%;
+  height: auto;
+  float: none;
+  margin-bottom: 20px;
+}
+p {
+  margin: 20px 0;
+}
+.work {
+  position: static;
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+.work h3 {
+  position: relative;
+  bottom: 80px;
+}
+#main-container {
+  padding-top: 0;
+  width: 95%;
+}
+.main-section {
+  float: none;
+}
+.sidebar {
+  float: none;
+  margin: 0 auto 30px;
+  max-width: 640px;
+}
+  .social {
+    width: 30%;
+    height: auto;
+    margin: 0 1%;
+  }
+}
